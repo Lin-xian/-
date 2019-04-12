@@ -1,0 +1,144 @@
+header {
+	width: 1280px;
+    height: 115px;
+	background: #fff; 
+}
+
+
+header .logo{
+	float:left;
+    margin-left:15px;
+    margin-top:33px;}
+header .logo img{
+	width: 158px;
+    height: 66px;}
+    
+header .container{
+
+	float: right;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+header .container .cart{
+	width: 400px;
+    height: 20px;
+    margin-top:16px;
+    padding-right: 3px;
+    display: flex;
+    justify-content: space-around;
+	background: #fff;}
+
+header .container .cart li{
+	font-size: 16px;;
+	font-weight: bold;
+	color: #9b9b9b;
+}
+#ydll{
+	display: none;
+}
+header .container .cart li img{
+  position: relative;
+  top:1px;
+}
+header .container .cart li a{
+	display: inline-block;
+	color: #9b9b9b;
+}
+header .container .cart li a:hover{
+	color:red
+}
+header .container .container2{
+	padding-right: 15px;
+	width:800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+header .container .container2 .nav{
+	font-size: 15px;;
+	width: 600px;
+	height: 30px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	position: relative;
+}
+
+header .container .container2 .nav li a{
+	color: #000000;
+	
+}
+header .container .container2 .nav li a:hover{
+	color:#d6000f;
+}
+header .container .container2 .nav li span{
+	color: #9a9db6;
+}
+header .container .nav .bottom img{
+	position: relative;
+	top:-3px;
+} 
+#nav1,#nav2,#nav3,#nav4{
+	width: 1280px;
+	height: 117px;
+	display:none;
+	background: #000;
+	position: absolute;
+	top:30px;
+	left:-480px;
+    align-items: center;
+	padding-left: 15px;	
+	font-weight: bold;
+}
+#nav2,#nav3{
+	height: 300px;
+}
+
+#nav1 li,#nav2 li,#nav3 li{
+	width: 23%;
+	align-self: flex-start;
+	margin-top:51px;
+}
+#nav4 li{
+	width: 33.3%;
+}
+#nav1 li a,#nav2 li a,#nav3 li a,#nav4 li a{
+	color:#fff;
+}
+
+header .container .container2 .nav li:nth-child(1):hover #nav1{
+	display: flex;
+	z-index: 2;
+}
+header .container .container2 .nav li:nth-child(3):hover #nav2{
+	display: flex;
+	z-index: 2;
+}
+header .container .container2 .nav li:nth-child(4):hover #nav3{
+	display: flex;
+	z-index: 2;
+
+}
+header .container .container2 .nav li:nth-child(6):hover #nav4{
+	display: flex;
+	z-index: 2;
+}
+#navinput{
+	position:relative;
+	padding-left: 10px;
+	border:solid 1px #e7e7e7;
+	outline: none;
+	width:180px ;
+	height: 30px;
+	top:-10px;
+    background: url(../img/nav2.jpg) no-repeat 156px 6px;
+}
+#cut{
+	width: 1280px;
+	height: 15px;
+	background: #000;
+}

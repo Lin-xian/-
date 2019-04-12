@@ -1,0 +1,95 @@
+
+main{
+    height: 690px;
+    width: 1280px;
+    background: #f1f2ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    form{
+        width: 600px;
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border:1px solid #d7d8d4;
+        background: #fff;
+          p{
+              color: #666666;
+              font-size: 22px;
+              font-weight: bold;
+              margin-top:48px;
+              margin-bottom: 18px;
+              width: 485px;
+          }
+          .inputcontainer{
+              width: 485px;
+              height: 426px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              input{
+                  width: 485px;
+                  height: 75px;
+                  font-size:17px;
+                  padding-left: 25px;
+                 
+                }
+              .yzm{
+                  width: 485px;
+                  height: 75px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+
+                  input{
+                      width: 295px;
+                  }
+                  span{
+                      display: inline-block;
+                      width: 175px;
+                      height: 50px;
+                      background: #000;
+                      color: #fff;
+                      font-size: 16px;
+                      font-weight: bold;
+                      text-align: center;
+                      border:1px solid #d7d8d4;
+                      padding-top:15px;
+                      
+                  }
+              }
+              p{
+                  width: 485px;
+                  height: 50px;
+                  background: #c9192e;
+                  font-size: 16px;
+                  color: #fff;
+                  text-align: center;
+                  line-height: 50px;
+                  margin:0;
+                  
+              }
+              P:hover{
+                  background: #000;
+              }
+          }
+
+          .bottom{
+              margin-top:15px;
+              width: 485px;
+              font-size: 15px;
+              font-weight:bold;
+              color:#d2d2d6;
+              a{
+                  color: #d2d2d6;
+                  text-decoration: underline;
+              }
+              a:hover{
+                  color:red;
+              }
+          }
+        
+    }
+}

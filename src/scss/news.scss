@@ -1,0 +1,93 @@
+main{
+    width: 1280px;
+    min-height: 200px;
+    background: #f1f2ed;
+    padding-bottom: 150px;
+    
+    nav{
+        width: 1280px;
+        height: 90px;
+           .nav {
+              display: flex; 
+              align-items: center;
+              height: 95px;
+              li{ 
+                  width: 95px;
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color:#dee1d4;
+                  a{
+                      color:#589bc6;
+                
+                  }          
+              }
+              li:nth-child(3) {
+                text-align: center;
+                a{
+                
+                    color: #9b9b9b;
+                  }
+              }
+           }
+    }
+    #newscontainer{
+        width: 1280px;
+        min-height: 500px;
+        padding-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        li { margin-left: 25px;
+             margin-bottom:15px;
+             width: 275px;
+             height: 445px;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between; 
+             .fira {
+                 display: block;
+                 width: 275px;
+                 height: 245px;
+                 img{
+                     width: 275px;
+                     height: 245px;
+                    
+                     
+                 }
+             }
+             .seca{
+        
+                 display: block;
+                 color: #000;
+                 font-weight: bold;
+                 line-height: 22.5px;
+                 width: 275px;
+                 height: 45px;
+             }
+             .firp{
+                 width: 275px;
+                 height: 40px;
+                 line-height: 20px;
+                 font-size: 15px;
+                 color: #9b9b9b;
+                 
+             }
+             .fird{
+                 width: 90px;
+                 height: 45px;
+                 display: flex;
+                 flex-direction: column;
+                  justify-content: center;
+
+                 p{
+                    height: 25px;
+                    color: #9b9b9b;
+                    font-weight:bold;
+                 }
+                  a{ 
+                     color: #589bc6;
+                     
+                 }
+             }
+         }
+    }
+}

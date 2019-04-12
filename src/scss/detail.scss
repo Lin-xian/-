@@ -1,0 +1,250 @@
+main{
+    width: 1280px;
+    min-height: 200px;
+    background: #f1f2ed;
+    
+    nav{
+        width: 1280px;
+        height: 90px;
+        border-bottom:3px solid #dee1d4;
+           .nav {
+              display: flex; 
+              align-items: center;
+              height: 95px;
+              li{ 
+                  width: 95px;
+                  font-size: 18px;
+                  font-weight: bolder;
+                  color:#dee1d4;
+                a{
+                      color:#589bc6;
+                
+                  }
+                 
+              }
+           }
+    }
+    section{
+        width: 1280px;
+        min-height: 500px;
+        padding:20px 15px 100px 15px;
+        display: flex;
+        justify-content: space-between;
+          .left{
+              width:640px;
+              height: 780px;
+              display: flex;
+              position: relative;
+              flex-direction: column;
+              justify-content: space-between;
+               #biggest{
+                   display: none;
+                   position: absolute;
+                   top:0;
+                   left: 640px;
+                   width: 480px;
+                   height: 480px;
+                   overflow:hidden;
+                   img{
+                       position: absolute;
+                       width: 1920px;
+                       height: 1920px;
+                   }
+               }
+               .top{
+                   width: 640px;
+                   height: 640px
+               }
+               .bottom{
+                   width: 640px;
+                   height: 120px;
+                   display: flex;
+                   li{
+                       width: 90px;
+                       height: 90px;
+                       margin-right: 20px;
+                   }
+               }
+          }
+          .right{
+              width: 565px;
+              min-height: 550px;
+              .container{
+                  width: 565px;
+                  height: 550px;
+                  display: flex;
+                  flex-direction: column;
+                  li{ width: 565px; 
+                      height: 80px;
+                      border-bottom:1px dashed #878b8c;
+                  }
+                  li:nth-child(1){
+                      height: 85px;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-between;
+                      padding-bottom: 15px;
+                      h1{
+                          font-size: 27px;
+                      }
+                      p{
+                          font-weight: bold;
+                          color:#c8192e;
+                      }
+
+                  }
+                  li:nth-child(2){
+                      height: 137px;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-around;
+                      p{
+                         font-weight: bold;
+                         font-size: 15px;
+                      }
+                      img{
+                          width: 70px;
+                          height: 70px;
+                          border: 2px solid #c8192e;
+                          background: #000;
+                      }
+                  }
+                  li:nth-child(3){
+                      height: 100px;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: space-around;
+                      p{
+                          font-weight: bold;
+                          font-size: 15px;
+                      }
+                      a{
+                          display: block;
+                          width: 55px;
+                          height: 30px;
+                          font-weight: bold;
+                          font-size: 13px;                        
+                          text-align: center;
+                          line-height: 30px;
+                          background: #c8192e;
+                          color: #fff;
+                      }
+
+                  }
+                  li:nth-child(4){
+                      height: 75px;
+                      display: flex;
+                      align-items: center;
+                      p{
+                        display: flex;
+                        height: 25px;
+                        line-height: 25px;
+                        font-weight: bold;
+                        font-size: 15px;
+                        a{  display: block;
+                            color: #878b8c;
+                            width: 30px;
+                            height: 25px;
+                            text-align: center;
+                        }
+                        .num{
+                            display: block;
+                            height: 25px;
+                            width: 55px;
+                            border: 1px solid #878b8c;
+                            text-align: center;
+                            line-height: 25px;
+                            color:#000;
+                        
+                        }
+                        .text{
+                            display: block;
+                            height: 25px;
+                            width: 55px;
+                            text-align: center;
+                            line-height: 25px;
+                            font-size: 13px;
+                            color:#878b8c;
+                        }
+                      }
+                      
+                     
+                  }
+                  li:nth-child(5){
+                       height: 80px;
+                       display: flex;
+                       align-items: center;
+                       a{
+                           display: block;
+                           width: 170px;
+                           height: 40px;
+                           background: #000;
+                           color: #fff;
+                           text-align: center;
+                           line-height: 40px;
+                           font-weight: bold;
+                           margin-right: 12px;
+                       }
+                       .sec{
+                           background: #c8192e;
+                       }
+                       .sec:hover{
+                           background: #000;
+                       }
+                       .thi{
+                           background: url(/img/heart.jpg) no-repeat  15px center;
+                           color: #589bc6;
+                       }
+                     
+                  }
+                  li:nth-child(6){
+                      height: 80px;
+                      display: flex;
+                      align-items: center;
+
+                      .logo1{
+                          display: flex;
+                          width: 160px;
+                          height: 40px;
+                          align-items: center;
+                          margin-right: 20px;
+                          i{  display: block;
+                              width: 60px;
+                              height: 40px;
+                              background: url(https://img2.vans.com.cn/themes/Vans/images/express.svg) no-repeat center center;
+                              background-size: 60px 40px;
+                          }
+                          em{
+                              font-style: normal;
+                              font-weight: bold;
+                              margin-left: 15px;
+                          }
+                         
+                      }
+                      .logo2{
+                        display: flex;
+                        width: 210px;
+                        height: 40px;
+                        align-items: center;
+                        i{
+                            display: block;
+                            width: 60px;
+                            height: 40px;
+                            background: url(https://img2.vans.com.cn/themes/Vans/images/return.svg) no-repeat center center;
+                            background-size: 60px 40px;
+                        }
+                        em{
+                            font-style: normal;
+                            font-weight: bold;
+                            margin-left: 15px;
+                        }
+                       
+                      }
+                  
+
+                  }
+              }
+              
+          }
+    }
+}

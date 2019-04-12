@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/list.css">
+
+</head>
+<body>
+    <header id="header-container"></header>
+    <section id="cut"></section>
+
+     <main>
+           <nav>
+               <ul class="nav">
+                   <li><a href="">首页  / </a></li>
+                   <li><a href="">全部男子</a></li>
+                   
+                   
+               </ul>
+           </nav>
+            <div class="container">
+                <ul class="left" id="side-type">
+                    <li><p><span>颜色 </span><span>+</span></p></span>
+                    <div>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                    </div>
+                    </li>
+                    <li><p><span>服配尺码 </span><span>+</span></p>
+                        <div>
+                            <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        </div>
+                    </li>
+                    <li><p><span>鞋码 </span><span>+</span></p>
+                        <div>
+                            <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        </div>
+                    </li>
+                    <li><p><span>鞋服配 </span><span>+</span></p>
+                        <div>
+                            <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        </div>
+                    </li>
+                    <li><p><span>穿法 </span><span>+</span></p>
+                        <div>
+                            <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        </div>
+                    </li>
+                    <li><p><span>鞋帮 </span><span>+</span></p>
+                        <div>
+                            <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        <a href="">1111</a>
+                        <a href="">你好</a>
+                        <a href="">asdasd</a>
+                        <a href="">水电费</a>
+                        <a href="">水电费水电费</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="right" >
+                    <div id="listcontainer">
+
+                    </div>
+                    <div class="more">
+                        <a href=""> 查看更多</a>
+                    </div>
+               </ul>
+            <script type="text/html" id="Vans-list">
+                {{each list item}}
+                <li><a  class="first" href="/html/detail.html"><img src="{{item.img}}" ></a><p>{{item.title}}</p><p>￥{{item.price}}</br><a  class="last" href="/html/detail.html">更多颜色</a></p></li> 
+                {{/each list item}}
+            </script>
+            </div>
+            <div class="bottom">
+                 <h1>猜你喜欢</h1>
+                 <ul id="guesscontainer">
+                     
+                     
+                 </ul>
+                 <script type="text/html" id="Vans-guess">
+                    {{each guess item}}
+                    <li>
+                            <a class="first" href="/html/detail.html"><img src="{{item.img}}" alt=""></a><p><a  href="">{{item.title}}</a></br>￥{{item.price}}</p>
+    
+                   </li>
+                   {{/each guess item}}
+                </script>
+                 <p><a id="change" href="">换一批</a></p>
+            </div>
+     </main>
+
+    <footer id="footer-container"></footer>
+    <script src="/lib/require.js"  data-main="/js/list.js"></script>
+</body>
+</html>

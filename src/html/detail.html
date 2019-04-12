@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+     <link rel="stylesheet" href="/css/detail.css">
+</head>
+<body>
+    <header id="header-container"></header>
+    <div id="cut"></div>
+    <main>
+            <nav>
+                    <ul class="nav">
+                        <li><a href="">首页</a> /</li>
+                        <li><a href="">配件</a> /</li>
+                        <li><a href="">男款配件</a> /</li>
+                    </ul>
+           </nav>
+           <section>
+               <div class="left">
+                   <img id="bigimage" class="top" src="" alt="">
+                   <div id="biggest"><img src="" alt=""></div>
+                   <ul class="bottom" id="detail-container">
+                         
+                   </ul>
+                   <script type="text/html" id="Vans-detail">
+                    {{each detail item}}
+                       <li><img src="{{item.image}}" alt=""></li>
+                    {{/each detail item}}
+                  </script>
+               </div>
+                <div class="right">
+                    <ul class="container">
+                        <li>
+                            <h1>男女款背包</h1>
+                            <p>￥450.00</p>
+                        </li>
+                        <li>
+                            <p>选择颜色：黑色</p>
+                            <img src="" alt="">
+                        </li>
+                        <li>
+                            <p>选择尺码</p>
+                            <a href="">均码</a>
+                        </li>
+                        <li>
+                            <p> 
+                                选购数量:
+                                <a  id="adda"> + </a>
+                                <span class="num" id="com-num"> 1 </span>
+                                <a  id="dea"> - </a>
+                                <span class="text">库存17件</span>
+                            </p>
+                        </li>
+                        <li>
+                            
+                                <a  href="" class="fir">加入购物车</a>
+                                <a  href="" class="sec">立即购买</a>
+                                <a  href="" class="thi">收藏该商品</a>
+                            
+                        </li>
+                        <li>
+                            <p class="logo1"><i></i><em>顺丰包邮</em></p>
+                            <p class="logo2"><i></i><em>15天无理由退换货</em></p>
+                        </li>
+                    </ul>
+                </div>
+           </section>
+    </main>
+
+    <footer id="footer-container"></footer>
+    <script src="/lib/require.js" data-main="/js/detail.js" ></script>
+</body>
+</html>

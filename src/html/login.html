@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <header id="header-container"></header>
+    <div id="cut"></div>
+
+
+     <main>
+         <form action="">
+             <ul>
+                 <li id="user-login">用户名登录</li>
+                 <li id="phone-login">手机快捷登录</li>
+             </ul>
+             <input type="text" placeholder="手机号/用户名" id="user">
+             <div class="container">
+                 
+                
+                <input type="password" placeholder="登录密码" id="password">
+                <p id="first-p">
+                    <input type="text" id="yzm" placeholder="填写验证码">
+                    <span><img src="/img/yzmm.jpg"><a href="">看不清楚？换一个</a></span>
+                </p>
+                <p id="second-p">
+                    <input type="text" id="ipyzm" placeholder="填写验证码">
+                    <span class="dxyzm">获取短信验证码</span>
+                </p>
+
+             </div>
+             <p><a >忘记密码？</a></p>
+             <div class="container2">
+                 <span class="left" id="login">立即登录</span>
+                 <span class="right" id="register">立即注册</span>
+             </div>
+             <label for="" id="other"> 
+                <span>使用其他方法登录：</span>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+             </label>
+              
+            
+         </form>
+     </main>
+
+
+    <footer id="footer-container"></footer>
+    <script src="/lib/require.js" data-main="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/news.css">
+</head>
+<body> 
+    <header id="header-container"></header>
+    <div id="cut"></div>
+
+    <main>
+            <nav>
+                 <ul class="nav">
+                        <li><a href="/">首页</a> /</li>
+                        <li><a href="">关于vans</a>/</li>
+                        <li><a href="">新闻</a></li>
+                </ul>
+           </nav>
+           <ul id="newscontainer">
+               
+           </ul>
+           <script type="text/html" id="Vans-news">
+            {{each news item}}
+            <li>
+                    <a href="" class="fira"><img src="{{item.img}}" alt=""></a>
+                    <a href="" class="seca">{{item.title}}</a>
+                    <p class="firp">{{item.title2}}</p>
+                    <div class="fird">
+                        <p>{{item.date}}</p>
+                        <a href="" > 阅读更多</a>
+                    </div>
+            </li>
+            {{/each news item}}
+           </script>
+    </main>
+
+    
+    <footer id="footer-container"></footer>
+    <script src="/lib/require.js" data-main="/js/news.js" ></script>
+    
+</body>
+</html>
