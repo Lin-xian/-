@@ -7,9 +7,10 @@ require(["require.config"],function(){
            this.ajax();
            this.enlarge();
            this.cartNumClick();
+           this.addcart()
         }
         init(){
-           
+                
                }
         ajax () {
             $.ajax(
@@ -83,6 +84,18 @@ require(["require.config"],function(){
             })
             
             }
+         addcart(){
+             $("#addcart").on("click",()=>{
+               if(confirm("商品已加入购物车,点击确定查看购物车")){
+                 window.location.href="/html/cart.html"
+               }
+             })
+             $("#paynow").on("click",()=>{
+              if(confirm("去购物车结算？")){
+                window.location.href="/html/cart.html"
+              }
+             })
+         }
     
           
             

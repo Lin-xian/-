@@ -28,6 +28,10 @@ define(["jquery"],function($){
           $("#ydl").html(user+" 欢迎您")
 
         }
+        else{
+          $("#ydll").css("display","none")
+          $("#wdl").css("display","block")
+        }
       }
   }    
    return new Header(); 

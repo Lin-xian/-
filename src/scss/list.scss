@@ -7,10 +7,14 @@ main{
         width: 1280px;
         height: 90px;
         border-bottom:3px solid #dee1d4;
+        position: relative;
            .nav {
               display: flex; 
               align-items: center;
               height: 90px;
+              width: 500px;
+
+
               li{ margin-left:15px;
                   width: 75px;
                   font-size: 18px;
@@ -24,6 +28,25 @@ main{
                 
                   }
               }
+
+           }
+           .order{
+               position: absolute;
+               left: 1000px;
+               top: 30px;
+               display: flex;
+              
+               li{ 
+                   background: #fff;
+                   border:2px solid #64686b;
+                   margin-left: 20px;
+                   width: 80px;
+                   height: 40px;
+                   font-weight: bold;
+                   text-align: center;
+                   line-height: 40px;
+
+               }
            }
     }
     .container{
