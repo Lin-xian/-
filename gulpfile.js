@@ -73,7 +73,7 @@ gulp.task("img", () => {
 
 gulp.task("server", () => {
   connect.server({
-    port: 999,
+    port: 358,
     livereload : true,
     root: "dist"
   })

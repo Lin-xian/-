@@ -40,21 +40,23 @@ require(["require.config"],function(){
                        var htmlguess = template("Vans-guess",{guess:vansguess});
                        $("#guesscontainer").html(htmlguess);
                        
+                       //价格降序
                        $("#down").on("click",function(){
                         res.res_body.list.sort(function(a,b){
                            return b.price - a.price;
                         })
-                         let vanslist  = res.res_body.list;
-                         var html = template("Vans-list",{list:vanslist});
+                          vanslist  = res.res_body.list;
+                         html = template("Vans-list",{list:vanslist});
                          $("#listcontainer").html(html);
    
                        })
+                       //价格升序
                        $("#up").on("click",function(){
                         res.res_body.list.sort(function(a,b){
-                           return a.price - b.price;
+                        return a.price - b.price;
                         })
-                         let vanslist  = res.res_body.list;
-                         var html = template("Vans-list",{list:vanslist});
+                         vanslist  = res.res_body.list;
+                         html = template("Vans-list",{list:vanslist});
                          $("#listcontainer").html(html);
    
                        })
